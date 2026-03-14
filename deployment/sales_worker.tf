@@ -71,4 +71,6 @@ module "sales_worker" {
   ]
 
   secrets = []
+
+  capabilities = ["FARGATE"]
 }

@@ -64,4 +64,6 @@ module "sales_api" {
   ]
 
   secrets = []
+
+  capabilities = ["FARGATE"]
 }
