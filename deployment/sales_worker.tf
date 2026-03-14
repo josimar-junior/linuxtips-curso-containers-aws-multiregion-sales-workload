@@ -4,7 +4,7 @@ module "sales_worker" {
   region                      = var.region
   cluster_name                = var.cluster_name
   service_name                = "sales-worker-${var.region}"
-  service_port                = "8080"
+  service_port                = 8080
   service_cpu                 = 256
   service_memory              = 512
   task_minimum                = 1
