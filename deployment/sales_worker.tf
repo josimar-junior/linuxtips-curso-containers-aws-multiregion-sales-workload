@@ -69,4 +69,6 @@ module "sales_worker" {
       value = aws_sqs_queue.main.id
     }
   ]
+
+  secrets = []
 }

@@ -62,4 +62,6 @@ module "sales_api" {
       value = var.sales_table_name
     }
   ]
+
+  secrets = []
 }
