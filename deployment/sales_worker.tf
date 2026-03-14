@@ -58,7 +58,7 @@ module "sales_worker" {
     },
     {
       name  = "DYNAMO_SALES_IDEMPOTENCY_TABLE"
-      value = var.sales_idempotency_table_name
+      value = var.sales_indempotency_table_name
     },
     {
       name  = "S3_SALES_BUCKET"
