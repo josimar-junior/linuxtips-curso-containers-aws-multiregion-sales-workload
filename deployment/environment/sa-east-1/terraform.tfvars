@@ -1,5 +1,5 @@
 project_name = "sales-workload"
-region       = "us-east-1"
+region       = "sa-east-1"
 
 sqs_processing_sales_config = {
   queue_name                    = "sales-processing"
